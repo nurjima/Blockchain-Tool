@@ -74,3 +74,15 @@ python manage.py runserver
 ```
 python manage.py runserver
 ```
+
+## Examples
+#### Screenshots:
+
+
+Pie/Doughnut Chart of ETH Balance
+
+<img width="745" alt="Screen Shot 2022-02-09 at 00 44 51" src="https://user-images.githubusercontent.com/74738634/153056616-319808f8-ff22-45ee-b459-c33766300819.png">
+
+Linear and Bar Charts
+
+<img width="843" alt="Screen Shot 2022-02-09 at 00 45 20" src="https://user-images.githubusercontent.com/74738634/153056676-ffc8709e-73cc-41a2-b6ca-67e3c1c8218e.png">
