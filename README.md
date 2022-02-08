@@ -13,7 +13,7 @@ Assignment 2 was done in team - Shaliyeva N. SE-2012, Shamshidin S. SE-2008
 ## Installation
 #### django
 ```
-$ pip install pyjwt
+$ pip install django
 ```
 
 #### requests
