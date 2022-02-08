@@ -38,3 +38,39 @@ $ pip install psycopg2-binary
 ***Note:** If you are a MAC/Linux User type **3**, after keywords - pip and python*
 
 ## Usage
+Install packages, that was mentioned before. Connect with database.
+If you are PostgrteSQL user -> change info in settings.py in project folder. 
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': '<name_of_database>',
+        'USER': '<username>',
+        'PASSWORD': '<your_password>',
+        'HOST': '<host>',
+        'PORT': '<port>',
+    }
+}
+```
+In case, you use databases like SQLite etc., check the django documentation - https://docs.djangoproject.com/en/4.0/
+
+After typing your info into _setting.py_, you will need to do migrations by running this command in terminal/command prompt
+```
+python3 manage.py makemigrations
+```
+
+```
+python3 manage.py migrate
+```
+
+Then run the server:
+
+### MacOS
+```
+python manage.py runserver
+```
+
+### Windows
+```
+python manage.py runserver
+```
