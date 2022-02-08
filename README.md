@@ -25,7 +25,6 @@ $ pip install requests
 ```
 $ pip install beautifulsoup4
 ```
-
 #### psycopg. It's necessary to install for connection with PostgreSQL DB
 ```
 $ pip install psycopg2
@@ -34,6 +33,7 @@ $ pip install psycopg2
 ```
 $ pip install psycopg2-binary
 ```
+
 
 ***Note:** If you are a MAC/Linux User type **3**, after keywords - pip and python*
 
