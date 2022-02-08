@@ -21,12 +21,12 @@ $ pip install pyjwt
 $ pip install requests
 ```
 
-#### beatifulSoup
+#### beautifulSoup
 ```
 $ pip install beautifulsoup4
 ```
 
-#### psycopg. It's needed to connect with PostgreSQL DB
+#### psycopg. It's necessary to install for connection with PostgreSQL DB
 ```
 $ pip install psycopg2
 ```
@@ -35,6 +35,6 @@ $ pip install psycopg2
 $ pip install psycopg2-binary
 ```
 
-***Note:** If you are a MAC/Linux User type 3, after keywords - pip and python*
+***Note:** If you are a MAC/Linux User type **3**, after keywords - pip and python*
 
 ## Usage
